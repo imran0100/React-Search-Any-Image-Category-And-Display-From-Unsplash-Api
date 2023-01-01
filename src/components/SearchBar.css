@@ -1,9 +1,10 @@
 .search-bar {
-  border: 2px solid rgb(61, 49, 49);
+  /* border: 2px solid rgb(61, 49, 49); */
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 20px;
-  background-color: rgb(226, 220, 211);
+  background-color: rgb(246, 244, 241);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 .search-bar form {
   display: flex;
@@ -12,6 +13,7 @@
 input {
   width: 400px;
   height: 35px;
-  border: 2px solid black;
+  border: 1px solid black;
   font-size: 20px;
+  border-radius: 6px;
 }
